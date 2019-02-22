@@ -1,4 +1,4 @@
-import os, urllib3
+import os
 import unittest
 
 from image_download import image_fetch
