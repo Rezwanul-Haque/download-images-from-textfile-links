@@ -23,7 +23,7 @@ class TestImageFetch(unittest.TestCase):
 def test_is_file_exists():
     """ manually unittesting for checking images.txt files exists in the current folder"""
     if os.path.isfile('./images.txt'):  ## should be exists
-        print('Files exists')
+        print('File exists')
     else:
         raise FileNotFoundError
 
