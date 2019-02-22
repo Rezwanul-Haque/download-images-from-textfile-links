@@ -58,12 +58,16 @@ $ python test_image_download.py
 
 # Program Details
 ### image_download has two function
+
 1. image fetch
 2. main
 
-# help text doc string can be seen using cmd
+# Help text doc string can be seen using cmd
 
 $ python
 >>> from image_download import image_fetch
 
 >>> help(image_fetch)
+
+### image_fetch function always renames the image name to a random number between
+### 1 to 10000. if the program run twice it will generate the same image with different name.
