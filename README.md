@@ -1,4 +1,4 @@
-### download-images-from-textfile-links
+# Download Images From Text File with links
 
 ### Current repo is about a small program which will read a text file and
 ### read the text file content (which is some image urls) then download those
