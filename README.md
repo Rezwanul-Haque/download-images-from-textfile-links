@@ -14,12 +14,15 @@ $ virtualenv venv
 # For windows
 
 $ cd venv
+
 $ scripts\activate
+
 $ cd ..
 
 # For linux
 
 $ cd venv
+
 $ source bin\activate
 
 # clone repo
@@ -29,6 +32,7 @@ $ git clone https://github.com/Rezwanul-Haque/download-images-from-textfile-link
 # install the requirements
 
 $ cd download-images-from-textfile-links
+
 $ pip install -r requirements.txt
 
 ### This program use requests package to download images from links given in the images.txt file.
